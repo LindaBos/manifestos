@@ -15,7 +15,7 @@ parties=[]
 
 lidmaatschap = {}
 
-with open('/home/linda/manifestos-oud/tweets/NL/NL_twitter_mp_all_new.csv', encoding='utf-8',mode='r',newline='') as twitterlist:
+with open('/home/linda/manifestos/tweets/NL/NL_twitter_mp_all_new.csv', encoding='utf-8',mode='r',newline='') as twitterlist:
     reader = csv.reader(twitterlist,delimiter=',')
     for row in csv.reader(islice(twitterlist, None)):
         screen_names.append(row[0])
@@ -43,8 +43,9 @@ api = tweepy.API(auth)
 
 for screen_name in screen_names[:1]:
     print("Starting to get tweets from {}".format(screen_name))
-    os.makedirs("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
-    os.chdir("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
+#    os.makedirs("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
+#    os.chdir("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
+    os.chdir("/home/linda/manifestos/tweets/downloads/NL/Images")
     alltweets = []	
     new_tweets = api.user_timeline(screen_name = screen_name,count=200)
     alltweets.extend(new_tweets)
@@ -57,10 +58,11 @@ for screen_name in screen_names[:1]:
         print ("...%s tweets downloaded so far" % (len(alltweets)))
     cleaned_text = [re.sub(r'http[s]?:\/\/.*[\W]*', '', i.text, flags=re.MULTILINE) for i in alltweets] # remove urls
     cleaned_text = [re.sub(r'@[\w]*', '', i, flags=re.MULTILINE) for i in cleaned_text] # remove the @twitter mentions 
-    cleaned_text = [re.sub(r'RT.*','', i, flags=re.MULTILINE) for i in cleaned_text] # delete the retweets
+    cleaned_text = [re.sub(r'RT : ','', i, flags=re.MULTILINE) for i in cleaned_text] # delete the retweets
     picturetext=[]
-    totaltext = []
     pictures=[]
+    ttext=[]
+    RT=[]
     for tweet in alltweets:
         if 'media' in tweet.entities:
             for image in  tweet.entities['media']:
@@ -79,10 +81,12 @@ for screen_name in screen_names[:1]:
         elif 'media' not in tweet.entities:
             picture = 'no picture'
             text_from_picture = ''
+        if 'retweeted_status' :
+            RT=1
         picturetext.append(text_from_picture)
         ttext = ['{}{}'.format(i,j) for i, j in zip(cleaned_text, picturetext)] 
         pictures.append(picture)
-    outtweets = [[tweet.id_str, tweet.favorite_count, tweet.retweet_count, tweet.created_at, pictures[idx], picturetext[idx],tottext[idx],cleaned_text[idx]] for idx,tweet in enumerate(alltweets)]
+    outtweets = [[tweet.id_str, tweet.favorite_count, tweet.retweet_count, tweet.created_at, tweet.is_quote_status,RT, pictures[idx], picturetext[idx],ttext[idx],cleaned_text[idx],tweet.text] for idx,tweet in enumerate(alltweets)]
     outputfile = '/home/linda/manifestos/tweets/downloads/NL/Tweets and Images/{}_{}_tweets_images.csv'.format(screen_name,lidmaatschap[screen_name])
     print("Writing stuff to {}".format(outputfile))
     with open(outputfile, 'w') as f:
@@ -91,3 +95,5 @@ for screen_name in screen_names[:1]:
         writer.writerows(outtweets)
 
 pass
+
+####klopt dus niet
