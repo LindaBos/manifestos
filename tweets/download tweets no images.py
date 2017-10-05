@@ -49,7 +49,7 @@ api = tweepy.API(auth)
 # vraag me ook af of dat enhancen noodzakelijk is
 # In[6]:
 
-for screen_name in screen_names[110:]:
+for screen_name in screen_names:
     print("Starting to get tweets from {}".format(screen_name))
 #    os.makedirs("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
     #os.chdir("/home/linda/manifestos/tweets/downloads/NL/Images/images_{}_{}".format(screen_name,lidmaatschap[screen_name]))    
