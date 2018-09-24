@@ -1,7 +1,7 @@
 import re
 import string
 
-moraldic = open("/home/linda/manifestos/mf/dutch moral foundations dictionary ext.1.dic").read().replace("\t", "").replace("\s", "")
+moraldic = open("/home/linda/manifestos/manifestos/mf/dutch moral foundations dictionary ext.1.dic").read().replace("\t", "").replace("\s", "")
 
 
 harmvirtue = re.findall('([a-z]+\*?).*[0][1]', moraldic)
