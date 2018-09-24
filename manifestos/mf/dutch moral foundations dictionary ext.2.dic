@@ -1,0 +1,646 @@
+%		
+01                    HarmVirtue
+02                    HarmVice
+03                    FairnessVirtue
+04                    FairnessVice
+05                    IngroupVirtue
+06                    IngroupVice
+07                    AuthorityVirtue
+08                    AuthorityVice
+09                    PurityVirtue
+10                    PurityVice
+11                    MoralityGeneral
+12			 LibertyVirtue
+13			 LibertyVice
+%		
+		
+veilig			01
+veilige*		01
+veiligheid		01
+vrede			01
+vredes*		01
+vredig			01
+vredelievend		01
+vreedza*		01
+kalm*			01
+compassie*		01
+medeleven*		01
+medelijden		01
+empath*			01
+inlevingsvermogen		01
+genegenheid*  	01
+bezorgd		01
+ongerust		01
+bekommer*		01
+behoud*
+verdedig*		01
+geborgen		01
+verweren		01
+verweer*		01
+beveilig*		01
+behoed*		01
+helpen*		01
+bewaken		01
+bewaak*		01
+bescherm*		01 07 09         
+bewaren		01 07 09
+bewaar*		01 07 09
+inleven*		01
+verzorgen*		01
+baten		01
+goeddoen		01
+soelaas		01
+bijstaan		01
+begunstigen		01		
+gesteund*		01
+meehelpen*		01
+troost*		01
+bevoorde*		01
+waarborg*		01
+ondersteun*		01
+facilit*		01
+red		01
+redt		01
+redden		01
+hulp		01
+waak*		01
+waken		01
+kwetsba*		01
+tegemoet		01
+vriendelijk*		01
+aardig*		01
+koester*		01
+barmhartig*		01
+
+schade		02
+kwaad 		02 11
+onrecht*		02 04 11 
+beschadig*		02
+benade*		02
+lijden		02
+lijd 		02
+lijdt		02
+oorlog*		02
+vecht*		02
+geweld		02
+pijn*		02
+kwets*		02
+beledig*		02 11
+bezeer*		02
+bezeren		02
+verwond*		02
+doden			02
+doodt		02
+moord*		02
+gedood		02
+gedode*		02
+vermoord*		02
+omgebracht*		02
+ombrengen*		02
+bedreig*		02
+gevaar*		02
+wreed		02
+gemeen		02
+bruut		02
+brute		02
+beestachtig*		02
+meedogenlo*		02
+misbruik*		02
+verwoest*		02 10
+ravage		02
+vernietig*		02
+teist*		02
+nadelig*		02
+verpletter*		02
+vermorzel*		02
+aanval*		02
+aantast*		02
+verniel*		02
+ruineren		02
+ruineer*		02
+verlaten		02 06
+afwijz*		02 06
+schaad*		02
+benadeel*		02
+verslechter*		02
+uitbuit*		02 10
+schaden 	02
+schadelijk*		02 11
+schend*		02 10 11
+terreur		02
+beroven		02
+beroof*		02
+beroving		02
+*mishandel*		02
+onzorgvuldig*		02
+uithollen		02
+uitgehold*		02
+ontsporen		02
+ontspoord*		02
+aanpak*		02
+dreig*		02
+diefstal*		02
+onvriendelijk*		02
+onaardig*		02
+negeren		02
+negeer*		02
+veronachtz*		02
+intimidatie		02
+intimideren*		02
+intimideer*		02
+		
+rechtvaardig*		03 11
+integer*		03
+billijk*		03
+redelijk*		03
+gelijkwaardig*		03	
+gerechtigheid		03
+terecht		03
+wederkerig*		03
+onpartijdig*		03
+egalitair*		03
+gelijkheids-*		03
+gelijkheid		03	
+quitte		03
+equivalent		03
+onbevooroordeeld*		03
+tolerant*		03
+ruimhartig*		03
+verdraagzaam		03
+verdraagzame		03
+gelijkmatig*		03
+gelijkmoedig*		03
+evenwicht*		03
+gelijksoortig*		03
+schappelijk*		03
+eerlijk*		03 11
+rechtmatig*		03
+fair		03
+wederzijds*		03
+neutra*		03
+gerechtvaardigd		03 11		
+gelijke		03
+kansengelijkheid		03
+*recht		03
+*rechten		03
+kansen		03
+proportione*		03
+			
+oneerlijk*		04 11
+onrechtvaardig*		04
+onredelijk*		04
+onbillijk*		04
+partijdig*		04
+vooroordeel		04
+vooroordelen		04
+bevooroordeeld*		04
+discrimineren*		04
+discrimineer*		04
+discriminatie		04
+gediscrimineerd*		04
+onevenredig*		04
+disproportione*		04
+onoprecht*		04
+gewetenloos		04
+gewetenloze		04
+voorkeur		04
+voorliefde		04
+voortrekkerij		04
+voortrekken		04
+voorgetrokken		04
+vriendjespolitiek		04
+segregatie		04 06
+segregeren		04 06
+afzondering		04 06
+afzonderen		04 06
+uitsluiting		04 
+uitsluiten		04
+buitensluiten		04
+unfair		04
+onverdraagzaam*		04
+intolerant*		04
+onterecht		04
+ongelijkwaardig*		04
+ongelijke		04
+ontoegankelijk*		04
+achterstand*		04
+tweedeling		04
+*verschillen		04
+valsspe*		04 06
+ontduik*		04
+corrupt*		04
+onevenwicht*		04
+uitlever*		04	
+kloof		04
+
+samen		05
+samenwerk*
+gezamenlijk*		05
+bijeen		05
+natie		05
+nation*
+volk		05
+thuisland		05
+geboorteland		05
+familie*		05
+familiair		05
+groep		05
+loyaal		05 07
+loyale		05 07
+loyal*		05 07
+trouw		05 07
+trouwe		05 07
+patriot*		05
+vaderlander		05
+commune*		05
+gemeenschap*		05
+leefgemeenschap		05
+woongemeenschap		05
+overeenkomstig*		05
+bevolkingsgroep*		05
+communis*		05
+kameraad*		05
+vriend 		05
+makker*		05
+maatje*		05
+kader		05
+collectief		05
+collectiev*		05
+harmoni*		05
+verenig*		05
+verbind*		05
+*genoot		05
+naaste		05
+naasten		05
+gilde*		05	
+broederschap		05
+solidariteit		05
+solidair		05
+toewijden		05
+toegewijd		05
+lid		05
+kliek		05
+club		05
+cohort		05
+bondgeno*		05
+ingewijde*		05
+loyaliteit		05 07
+vertrouw*		05
+betrouwba*		05
+opoffer*		05
+verbondenheid		05
+medemens*		05
+held		05
+helden		05
+integratie		05
+integreer*		05
+integreren		05
+overwinn*		05
+terugveroveren		05
+terugwinnen		05
+
+vijand*		06
+verraden		06 08
+verraad		06 08
+hoogverraad		06 08
+landverra*		06 08
+verrader*		06 08
+ontrouw		06 08
+individuele			06 12
+individueel		06 12
+individual*		06 12
+afvallig*		06 08 10
+deserter*		06 08
+deserteur		06 08
+deserteer*		06 08
+gedeserteerd		06 08
+bedrieg*		06
+bedrog		06
+misleid*		06
+ontaard		06 10
+spion		06
+afscheiden		06
+overlope*		06
+terroris*		06
+immigra*		06
+judas		06
+matennaaier*		06
+verklikke*		06
+bedonder*		06
+beduvel*		06
+belazer*		06
+besodemieter*		06
+onbetrouwba*		06
+lieg*		06
+leugen*		06
+jokkebrok*		06
+capitul*		06​
+grenzen*		06
+tegenstander*		06
+opponent*		06
+achterkamer*		06
+		
+gehoorza*		07
+opvolg*		07
+volgzaam		07
+plicht		07
+wet		07
+wettelijk		07 11
+legaal		07 11
+legale		07 11
+plichtsgetrouw*		07
+eren		07
+eer		07
+hulde		07
+respect			07	
+respectvol*		07
+gerespecteerd*		07
+eerbetuiging*		07
+orde			07
+bevel*		07
+vader		07
+vaders		07
+moeder*		07
+bemoederen		07
+traditie*		07
+traditione*		07
+hierarchi*		07
+authorit*		07	
+vergunning		07
+toestemming		07
+toestaan		07
+toelaten		07
+toestemmen		07
+status			07
+leider*		07
+klasse		07
+burgerij		07
+kaste		07
+positie		07
+onderdanig*		07
+gebod		07
+opdracht*		07
+overmacht		07
+superioriteit		07
+controle*		07 13
+onderwerpen		07
+onderworpen		07
+overgev*		07
+toegev*		07
+loyaliteit		07
+dienen		07
+dienend*		07	
+achting		07
+eerbied*		07
+opzien			07
+aanbid*		07
+meewerk*		07
+gezag*		07
+superieur*		07
+meerdere*		07
+verplicht*		07
+daadkracht*		07
+beheers*		07
+slagvaardig*		07
+baas		07
+volger*		07
+volgeling*		07
+volgen*		07
+dienstba*		07
+		
+trotseren*		08
+verzet*		08
+rebel*			08
+afwijken*		08
+meningsverschil*		08
+weiger*		08
+ontwrichten*		08
+ondermijnen*		08
+respectloos*		08
+respectloze		08
+disrespect*		08
+ongehoorzaam*		08
+ongehoorzame		08
+opruien		08
+opstand*		08
+ageren		08
+strijden		08
+illega*		08
+onwettelijk*		08
+onwettig*		08
+wettelo*		08
+oproerkraaie*	08
+muite*		08
+tarten*		08
+uitdagen*		08
+trotseer*		08
+weerstaan		08
+weerstand		08
+dissident		08
+ketter*		08 10
+bestrijd*		08
+protest*			08
+hekel*		08
+afkeur*		08 11
+ordeverstoring		08
+relletje*		08
+rel		08
+oproer		08
+ongeregeldhe*		08
+versper*		08
+blokker*		08
+onbeheers*		08
+		
+vroom*		09 11
+vrome		09 11
+zuiverheid		09
+zuiver		09
+puurheid		09
+puur		09
+onschuld*		09 11
+pure			09
+helder		09
+helderheid		09
+schoon*		09
+steriel*		09
+heilig*		09
+kuis*		09
+sober*		09
+sint		09
+engel		09
+heilza*		09 11
+celibaat*		09
+celibatair*		09
+onthouding		09
+maagd*		09
+eenvoud		09
+integriteit		09 11
+rechtschapen*		09 11
+bescheiden*		09
+zedig*		09
+eerbaar		09
+matig*		09
+oprecht*		09 11
+rechtdoorzee		09 11
+glashelder		09
+deugdelijk*		09 11
+verfijnd*		09
+fijnbesnaard*		09
+decent		09 11
+decente		09 11
+netjes		09 11
+fatsoen*		09 11
+onfeilbaar		09
+onfeilbare		09
+ongerept*		09
+kerk*		09
+onberispelijk		09 11
+vlekkelo*		09 11
+degelijk*		09 
+beschaafd*		09
+
+
+
+ontkerkelijk*		10
+afschuwelijk*		10
+afkeer		10
+bederven		10
+bedorven		10
+rot		10
+bederf*		10
+vuil*		10
+bevlekt*		10
+onkuiz*		10
+onrein*		10
+onfatsoen*		10 11
+zonde*		10 11
+zondig		10 11
+zondaar		10
+zondaren		10
+slet*		10
+hoer*		10
+goddelo*		10
+onkerkelijk		10	
+ontheilig*		10
+vulgair*		10
+plat		10
+afstotend*		10
+weerzinwekkend*		10
+walg*		10
+promiscue		10
+obsceen		10
+obscen*		10
+schunnig*		10
+overspel*		10
+verdorven		10
+lichtzinnig*		10
+liederlijk*		10
+bevuil*		10
+zwerver		10
+prostitut*		10
+onkuis		10
+buitensporig*		10
+losbol		10
+losbandig*		10
+viezigheid		10
+ordinair*		10
+laks*		10
+nalatig*	10
+smet		10
+besmet*		10
+vlek		10
+bezoedel*		10
+verneder*		10
+kwaadaardig*		10 11
+kwalijk*		10
+pervers*		10
+viezerik		10
+verachtelijk		10 11
+vervuilen*			10
+tuig		10
+onbeschaafde		10
+onbeschoft*		10
+laaghartig*		10
+
+deugdza*		11
+moreel		11
+moraal		11
+morele		11
+moral*		11
+ethisch		11
+ethiek		11
+goeden		11
+goedheid		11
+principe*		11
+principi*		11	
+voorbeeldig		11
+regel		11
+regels		11
+doctrine		11
+nobel		11
+edel		11
+waard		11
+ideal*			11
+ideaal		11
+loffelijk		11
+prijzenswaardig		11
+karakter		11
+moed		11
+moedig*		11
+gepast			11
+passend		11
+correct			11
+misstand		11
+verkeerd*		11
+fout*		11
+onjuist		11
+wantoestand		11
+onheil		11
+boos		11
+immoreel		11
+immorele		11
+kwade		11
+schuldig*		11
+minderwaardig		11
+aanstoot		11
+aanstootgevend*		11
+overtreding		11
+overtreden		11
+overtreed*		11
+goedkeur*		11
+deugd		11
+deugden		11
+geschikt*		11
+ongeschikt*		11
+norm*		11
+abnorm*		11
+
+vrijheid		12
+vrijheden		12
+ruimte		12
+regie		12
+ontplooi*		12
+onafhankelijk*		12
+autono*		12
+zelfstandig		12
+zelfstandige		12
+zelfstandigheid		12
+zelfbeschik*		12
+eigenheid		12
+identiteit		12
+
+verbod*		13
+verbied*		13
+onderdruk*		13
+verdring*		13
+beperken		13
+inbreuk		13
+dwing*		13
+dwang		13
+hinder*		13
+belemmer*		13
+ingrijpen		13
+bemoei*		13
+verstikken*		13
+afhankelijk*		13
+
